@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xadrez-console", "xadrez-console\xadrez-console.csproj", "{053D27F5-335C-4ECB-8887-33C29A70CBC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xadrez-treino", "xadrez-treino\xadrez-treino.csproj", "{BD202B53-236F-478F-927B-2CCD72F9B43E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{053D27F5-335C-4ECB-8887-33C29A70CBC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{053D27F5-335C-4ECB-8887-33C29A70CBC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{053D27F5-335C-4ECB-8887-33C29A70CBC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{053D27F5-335C-4ECB-8887-33C29A70CBC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD202B53-236F-478F-927B-2CCD72F9B43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD202B53-236F-478F-927B-2CCD72F9B43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD202B53-236F-478F-927B-2CCD72F9B43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD202B53-236F-478F-927B-2CCD72F9B43E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C14F61FA-F10E-4303-B937-55A34E6DFED8}
+	EndGlobalSection
+EndGlobal
