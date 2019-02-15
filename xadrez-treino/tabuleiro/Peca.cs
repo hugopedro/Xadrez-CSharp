@@ -10,9 +10,9 @@
         //Conceito de associação: Uma peça vai ter que estar em um tabuleiro
         public Tabuleiro tab { get; protected set; }
 
-        public Peca(Posicao posicao, Cor cor, Tabuleiro tab)
+        public Peca(Tabuleiro tab, Cor cor)
         {
-            this.posicao = posicao;
+            this.posicao = null; // quando se cria uma peça ela ainda nao tem posição, então é null(por isso n tem o argumento posicao)
             this.cor = cor;
             this.tab = tab;
             this.qteMovimentos = 0;

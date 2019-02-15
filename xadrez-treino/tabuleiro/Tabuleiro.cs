@@ -21,5 +21,13 @@
         {
             return pecas[linha, coluna];
         }
+
+        public void colocarPeca(Peca p, Posicao pos)
+        { // colocar uma peça significa ir lá na matriz de peças do tabuleiro, na posição
+            //pos.linha e pos.coluna recebe a peça p, e alem disso deve-se ir na posição do tabuleiro
+            // e dizer que agora está ocupada pela peça pos
+            pecas[pos.linha, pos.coluna] = p;
+            p.posicao = pos;
+        }
     }
 }
