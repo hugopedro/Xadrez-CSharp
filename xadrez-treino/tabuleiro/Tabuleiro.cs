@@ -48,6 +48,18 @@
             p.posicao = pos;
         }
 
+        public Peca retirarPeca(Posicao pos)
+        { 
+            if (peca(pos) == null) // a peça que estiver na posição pos... se for nulo quer dizer que nao tem nenhuma peça nessa posicao, logo nao há peça pra ser retirada
+            {
+                return null;
+            }
+            Peca aux = peca(pos); // a variavel auxiliar vai receber a peça que estiver na posição informada
+            aux.posicao = null; // agora estou mandando dizer que essa peça está na posição nula, pq foi retirada do tabuleiro(comida)
+            pecas[pos.linha, pos.coluna] = null; // isso é pra deixar o quadrado da peça que foi dominada vazio
+            return aux; // retornar a peça...
+        }
+
         public bool posicaoValida(Posicao pos)
         { 
             // verificando as posições, n pode ser menos q 0 e maior que 8, pq o tabuleiro é 8x8

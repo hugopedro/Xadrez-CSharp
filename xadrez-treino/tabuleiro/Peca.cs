@@ -20,5 +20,10 @@
             // obviamente no inicio do jogo, quando a peça acaba de ser criada ela tem zero 
             // movimentos, ou seja, não mexeu ainda
         }
+
+        public void incrementarQteMovimentos()
+        {
+            qteMovimentos++;
+        }
     }
 }
